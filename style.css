@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height:default;
+    
+background-color: #292727;
+background-image: url("istockphoto-862656980-170667a.jpg");    
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 237, 237);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+        color: blue;
+    }
+    .detel{
+        margin-left: 8px;
+        margin-top: 15px;
+font-style: italic;
+    }
+    .detel h1{
+        font-size: 50px;
+        color: rgb(253, 249, 249);
+        margin-bottom: 20px;
+    }
+    .click{
+        background-color: rgb(92, 82, 90);
+    color: white;
+    border: none;
+    height: 57px;
+    width: 600px;
+    border-radius: 5px;
+cursor: pointer;
+transition: opacity 0.15s;
+margin-left: 6px;
+margin-right: 100px;
+margin-top: 50px;
+    }
+    .click:hover{
+        background-color: rgb(3, 5, 1);
+        opacity: 0.1;
+    }
+    .click:active{
+        background-color: rgb(194, 32, 10);
+    opacity: 0.9;
+    }
+.link{
+    background-color: rgb(179, 49, 135);
+    color: white;
+    border-color: rgb(66, 66, 202);
+    border-radius: 5px;
+    height:57px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 8px;
+    transition: background_color 0.15s,
+    color 0.15s;
+}
+.link:hover{
+    background-color: rgb(69, 69, 236);
+color: white;
+}
+.link:active{
+    background-color: aquamarine;
+}
+
+
+    SPAN{
+        
+        color: orange;
+    }
+    .detel{
+        color:#f7f4f4;
+        line-height: 22px;
+        padding-top: 100px;
+        padding-left: 100px;
+
+    }
+    .detel a{
+        background-color: rgb(252, 230, 252);
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #141313;
+        display: inline-block;
+        margin: 30px 0px;
+        border-radius: 5px;
+    }
+    .images{
+        width: 45px;
+        height: 80px;
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+    }
+    .images img{
+        height: 500px;
+        position: absolute;
+        bottom: 300px;
+        left: 100%;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .images:hover .girl{
+        left: 0%;
+    }
+.table{
+    padding-left: 200px;
+    margin-top: 20px;
+    padding-right: 260px;
+    padding-bottom: 20px;
+    font-size: small;
+    color: white;
+    width: min-content;
+    font-style: italic;
+    background-color: rgb(22, 15, 6);
+    table-layout: unset;
+}
+.psyic{
+    color: red;
+    background-color: red;
+}
+.dreal{
+width: 100px;
+padding-top: 40px;
+padding-left: 20px;
+}
+.text{
+    width: 500px;
+height: 30px;
+    color: rgb(47, 10, 136);
+    border-color: blue;
+    
+}
+.good{
+    width: 570px;
+    
+}
+.sea{
+    
+    height: 40px;
+}
+.graci{
+    width: 570px;
+}
+.trick{
+background-color: black;
+}
+.realbox-icon-button {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    outline: 0;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    width: var(--ntp-realbox-icon-width);}
+   
+    
+
+    .content-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        margin: 0 50px;
+        
+      }
+      
+
+      
+      .content {
+        border-radius: 15px;
+        background: yellow;
+        
+        width: 20PX;
+        height: 30PX; 
+        scroll-behavior: smooth;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-align: center;
+        margin: 20px;
+        display: inline-table;
+       
+      }
+.content1{
+    border-radius: 15px;
+    background:green;
+    width: 20%;
+    height: 10%; 
+    font-weight: bold;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+    display: inline-table;
+}
+.content2 {
+    border-radius: 15px;
+    background: red;
+    width: 20PX;
+    height: 30PX; 
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+    display: inline-table;
+}
+.content:hover .content-card{
+    left: 0%;
+    color: aqua;
+}
+    
+    
+
+    
+
+       
+    
+   
+    
+    
